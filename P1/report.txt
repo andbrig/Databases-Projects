@@ -1,0 +1,17 @@
+// File: report.txt
+// Student Name: Andrew Briggs
+// UW Campus ID: 9071627591
+// email: abriggs5@wisc.edu
+I could not get my data structure to work with out compilation errors, so my
+answers are assuming it worked as originally planned. 
+
+1. I chose to implement a binary search tree. I considered going with a radix tree,
+however I felt it would take up too much memory and have several other confusing
+aspects that would increase the difficulty without a performance boost. I arrived
+at the binary search tree because it was relatively easy to implement, and yet
+had fast search and load times.
+2. The best case complexity is O(log(n)), when the tree is well balanced. 
+The worst case complexity is O(n), when the tree is completely unbalanced.
+The average case complexity is O(log(n)), as the tree is consistenly going to be balanced enough that it doesn't take linear time.
+3. The average space complexity would be O(N^2), as not only does allocating for the 
+nodes take up memory, but the recursive calls to insert do as well, leading to O(n^2)
